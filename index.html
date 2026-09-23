@@ -1,0 +1,676 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Serenity — Luxury Hotel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="header">
+
+    <a href="index.html" class="brand">
+      SERENITY<span>.</span>
+    </a>
+
+    <nav class="desktop-nav">
+      <a href="#rooms">Rooms</a>
+      <a href="#experience">Experience</a>
+      <a href="#story">Our story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="login.html" class="login-link">Login</a>
+      <a href="#booking" class="header-book">Book a stay</a>
+    </div>
+
+    <!-- CSS ONLY MOBILE MENU -->
+    <a href="#mobile-menu" class="menu-toggle">
+      <span></span>
+      <span></span>
+    </a>
+
+  </header>
+
+
+  <!-- ================= MOBILE MENU ================= -->
+
+  <div class="mobile-menu" id="mobile-menu">
+
+    <div class="mobile-menu-inner">
+
+      <div class="mobile-menu-top">
+        <span>MENU</span>
+        <a href="#" class="close-menu">×</a>
+      </div>
+
+      <a href="#rooms">Rooms</a>
+      <a href="#experience">Experience</a>
+      <a href="#story">Our story</a>
+      <a href="#contact">Contact</a>
+
+      <a href="login.html" class="mobile-login">
+        Login / Create account
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- ================= HERO ================= -->
+
+  <main>
+
+    <section class="hero">
+
+      <img
+        src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=2200&q=90"
+        alt="Luxury Serenity hotel"
+      >
+
+      <div class="hero-shade"></div>
+
+      <div class="hero-content">
+
+        <div class="hero-kicker">
+          <span></span>
+          A QUIET PLACE TO BREATHE
+        </div>
+
+        <h1>
+          Find your own
+          <em>serenity.</em>
+        </h1>
+
+        <p>
+          An intimate retreat surrounded by nature,
+          created for slow mornings, beautiful evenings
+          and meaningful escapes.
+        </p>
+
+        <div class="hero-actions">
+
+          <a href="#rooms" class="button button-light">
+            Explore rooms
+            <span>↗</span>
+          </a>
+
+          <a href="#experience" class="hero-text-link">
+            Discover Serenity
+            <span>↓</span>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-bottom">
+
+        <div class="location">
+          <span>✦</span>
+          NATURE · WELLNESS · HOSPITALITY
+        </div>
+
+        <div class="hero-scroll">
+          SCROLL TO EXPLORE
+          <span></span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= BOOKING BAR ================= -->
+
+    <section class="booking-wrap" id="booking">
+
+      <div class="booking-card">
+
+        <div class="booking-title">
+          <span>PLAN YOUR STAY</span>
+          <strong>Reserve your escape</strong>
+        </div>
+
+        <div class="booking-field">
+
+          <label>CHECK IN</label>
+
+          <div class="booking-value">
+            <span>12</span>
+            <div>
+              <strong>JUN</strong>
+              <small>2026</small>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="booking-divider"></div>
+
+
+        <div class="booking-field">
+
+          <label>CHECK OUT</label>
+
+          <div class="booking-value">
+            <span>15</span>
+            <div>
+              <strong>JUN</strong>
+              <small>2026</small>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="booking-divider"></div>
+
+
+        <div class="booking-field">
+
+          <label>GUESTS</label>
+
+          <div class="guest-value">
+            <strong>02</strong>
+            <span>Guests</span>
+          </div>
+
+        </div>
+
+
+        <a href="login.html" class="availability">
+          Check availability
+          <span>→</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= INTRO ================= -->
+
+    <section class="intro section">
+
+      <div class="section-meta">
+        <span>01</span>
+        <p>THE SERENITY EXPERIENCE</p>
+      </div>
+
+
+      <div class="intro-grid">
+
+        <div class="intro-heading">
+
+          <h2>
+            More than a stay,
+            <em>it's a feeling.</em>
+          </h2>
+
+        </div>
+
+
+        <div class="intro-copy">
+
+          <p class="large-copy">
+            Serenity is a destination created for
+            those who appreciate the beauty of
+            doing less.
+          </p>
+
+          <p>
+            Wake up to soft sunlight. Spend the
+            afternoon beside the pool. Let the
+            evening unfold slowly.
+          </p>
+
+          <a href="#story" class="under-link">
+            Discover our philosophy
+            <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= FEATURE IMAGE ================= -->
+
+    <section class="feature">
+
+      <img
+        src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=2200&q=90"
+        alt="Serenity luxury hotel room"
+      >
+
+      <div class="feature-overlay"></div>
+
+      <div class="feature-content">
+
+        <span>01</span>
+
+        <p>
+          Designed around<br>
+          your peace of mind.
+        </p>
+
+      </div>
+
+      <div class="feature-tag">
+        SERENITY / 2026
+      </div>
+
+    </section>
+
+
+    <!-- ================= ROOMS ================= -->
+
+    <section class="rooms section" id="rooms">
+
+      <div class="section-head">
+
+        <div class="section-meta">
+          <span>02</span>
+          <p>STAY WITH US</p>
+        </div>
+
+        <a href="#" class="under-link">
+          View all rooms
+          <span>↗</span>
+        </a>
+
+      </div>
+
+
+      <div class="heading-row">
+
+        <h2>
+          Rooms made for
+          <em>rest.</em>
+        </h2>
+
+        <p>
+          Every room has been thoughtfully designed
+          to make slowing down feel effortless.
+        </p>
+
+      </div>
+
+
+      <div class="room-grid">
+
+
+        <!-- ROOM 01 -->
+
+        <article class="room-card">
+
+          <div class="room-image">
+
+            <img
+              src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1100&q=90"
+              alt="Garden Suite"
+            >
+
+            <span class="room-index">01</span>
+
+            <a href="login.html" class="room-arrow">↗</a>
+
+          </div>
+
+          <div class="room-details">
+
+            <div>
+              <h3>Garden Suite</h3>
+
+              <p>
+                King bed · Garden view · 42 m²
+              </p>
+            </div>
+
+            <div class="room-price">
+              <strong>$320</strong>
+              <span>/ night</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- ROOM 02 -->
+
+        <article class="room-card">
+
+          <div class="room-image">
+
+            <img
+              src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1100&q=90"
+              alt="Serenity Suite"
+            >
+
+            <span class="room-index">02</span>
+
+            <a href="login.html" class="room-arrow">↗</a>
+
+          </div>
+
+          <div class="room-details">
+
+            <div>
+              <h3>Serenity Suite</h3>
+
+              <p>
+                King bed · Ocean view · 58 m²
+              </p>
+            </div>
+
+            <div class="room-price">
+              <strong>$460</strong>
+              <span>/ night</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- ROOM 03 -->
+
+        <article class="room-card">
+
+          <div class="room-image">
+
+            <img
+              src="https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1100&q=90"
+              alt="Private Villa"
+            >
+
+            <span class="room-index">03</span>
+
+            <a href="login.html" class="room-arrow">↗</a>
+
+          </div>
+
+          <div class="room-details">
+
+            <div>
+              <h3>Private Villa</h3>
+
+              <p>
+                2 bedrooms · Pool · 95 m²
+              </p>
+            </div>
+
+            <div class="room-price">
+              <strong>$680</strong>
+              <span>/ night</span>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section class="experience" id="experience">
+
+      <div class="experience-photo">
+
+        <img
+          src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1400&q=90"
+          alt="Hotel spa experience"
+        >
+
+        <div class="photo-label">
+          SERENITY SPA
+        </div>
+
+      </div>
+
+
+      <div class="experience-info">
+
+        <div class="section-meta">
+          <span>03</span>
+          <p>THE EXPERIENCE</p>
+        </div>
+
+
+        <h2>
+          Slow down.
+          <em>Stay awhile.</em>
+        </h2>
+
+
+        <p class="experience-copy">
+          From sunrise yoga to long lunches and
+          evenings beneath the stars, every moment
+          at Serenity is designed around a slower rhythm.
+        </p>
+
+
+        <div class="experience-list">
+
+          <a href="#">
+            <span>01</span>
+            <strong>Wellness & Spa</strong>
+            <span>↗</span>
+          </a>
+
+          <a href="#">
+            <span>02</span>
+            <strong>Local Cuisine</strong>
+            <span>↗</span>
+          </a>
+
+          <a href="#">
+            <span>03</span>
+            <strong>Nature & Adventure</strong>
+            <span>↗</span>
+          </a>
+
+          <a href="#">
+            <span>04</span>
+            <strong>Private Experiences</strong>
+            <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= STORY ================= -->
+
+    <section class="story section" id="story">
+
+      <div class="section-meta">
+        <span>04</span>
+        <p>OUR PHILOSOPHY</p>
+      </div>
+
+
+      <div class="story-content">
+
+        <h2>
+          Hospitality,
+          <em>reimagined.</em>
+        </h2>
+
+        <div class="story-right">
+
+          <p class="story-large">
+            We believe luxury isn't about having more.
+            It's about having space for what matters.
+          </p>
+
+          <p>
+            Space to think, to breathe, to reconnect.
+            That's the philosophy behind everything
+            we do at Serenity.
+          </p>
+
+          <a href="#" class="under-link">
+            Read our story
+            <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= QUOTE ================= -->
+
+    <section class="quote-section">
+
+      <div class="quote-number">
+        05 / SERENITY JOURNAL
+      </div>
+
+      <span class="quote-mark">“</span>
+
+      <h2>
+        The best journeys
+        <em>take you home.</em>
+      </h2>
+
+      <p>
+        A NOTE FROM SERENITY
+      </p>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+
+      <div class="cta-shade"></div>
+
+      <div class="cta-content">
+
+        <p>
+          YOUR NEXT ESCAPE
+        </p>
+
+        <h2>
+          Ready to
+          <em>slow down?</em>
+        </h2>
+
+        <a href="login.html" class="button button-light">
+          Book your stay
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer id="contact">
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+
+        <a href="#" class="brand footer-logo">
+          SERENITY<span>.</span>
+        </a>
+
+        <p>
+          A quiet place for<br>
+          meaningful escapes.
+        </p>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>EXPLORE</h4>
+
+        <a href="#rooms">Rooms</a>
+        <a href="#experience">Experience</a>
+        <a href="#story">Our story</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>CONTACT</h4>
+
+        <a href="#">hello@serenity.com</a>
+        <a href="#">+1 234 567 890</a>
+        <a href="#">Serenity Road, California</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>SOCIAL</h4>
+
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">Facebook</a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>© 2026 Serenity Hotel</span>
+
+      <div>
+        Privacy · Terms
+      </div>
+
+      <span>Made for slow living.</span>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
+```
